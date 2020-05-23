@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace AptMgmtPortal.Entity
 {
-    public class Tenent
+    public class Tenant
     {
-        public Tenent()
+        public Tenant()
         {
             TenantResourceUsages = new HashSet<TenantResourceUsage>();
         }
         [Key]
-        public int TenentId { get; set; }
+        public int TenantId { get; set; }
         public string UnitNumber { get; set; }
         public bool IsPresent { get; set; }
         public string PhoneNumber { get; set; }

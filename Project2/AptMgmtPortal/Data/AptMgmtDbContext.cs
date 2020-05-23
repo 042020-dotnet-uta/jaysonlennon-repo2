@@ -7,7 +7,7 @@ namespace AptMgmtPortal.Data
     public class AptMgmtDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<Tenent> Tenents { get; set; }
+        public DbSet<Tenant> Tenants { get; set; }
         public DbSet<MaintenanceRequest> MaintenanceRequests { get; set; }
         public DbSet<BillingPeriod> BillingPeriods { get; set; }
         public DbSet<MaintenanceRequestType> MaintenanceRequestTypes { get; set; }

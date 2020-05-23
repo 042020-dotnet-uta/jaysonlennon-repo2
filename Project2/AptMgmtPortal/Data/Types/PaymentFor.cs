@@ -9,6 +9,6 @@ namespace AptMgmtPortal.Entity
     public enum PaymentFor
     {
         Rent,
-        Unitity
+        Utility
     }
 }

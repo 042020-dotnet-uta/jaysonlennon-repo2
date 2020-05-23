@@ -9,6 +9,6 @@ namespace AptMgmtPortal.Entity
     {
         Admin,
         Manager,
-        Tenent
+        Tenant
     }
 }
