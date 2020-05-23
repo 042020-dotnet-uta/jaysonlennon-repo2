@@ -16,6 +16,7 @@ namespace AptMgmtPortal.Entity {
         public int UserId { get; set; }
         public UserAccountType UserAccountType { get; set; }
         public string LoginName { get; set; }
+        public string Password { get; set; }
 
         [InverseProperty(nameof(MaintenanceRequest.OpeningUser))]
         public ICollection<MaintenanceRequest> OpeningMaintenanceRequests { get; set; }
