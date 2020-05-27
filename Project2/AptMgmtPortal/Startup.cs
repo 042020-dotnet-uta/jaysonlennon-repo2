@@ -1,13 +1,15 @@
+using AptMgmtPortal.Data;
+using AptMgmtPortal.Data.Repository;
+using AptMgmtPortal.Entity;
+using AptMgmtPortal.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using AptMgmtPortal.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace AptMgmtPortal
 {
@@ -16,7 +18,11 @@ namespace AptMgmtPortal
         public static void AddRepositories(IServiceCollection services)
         {
             // TODO: Add repositories here as they get implemented.
-            //services.AddScoped<Repository.IUser, Repository.User>();
+            // not sure we would need them though, as we don't have seperate project layers to inject 
+            // these into. 
+            services.AddScoped<ITenant, TenentRepository>();
+            services.AddScoped<IManager, ManagerRepository>();
+            services.AddScoped<IMisc, MiscRepository>();
         }
 
         public Startup(IConfiguration configuration)
