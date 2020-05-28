@@ -65,6 +65,6 @@ namespace AptMgmtPortal.Repository
         Task<IEnumerable<DataModel.TenantResourceUsageSummary>> GetResourceUsage(int tenantId,
                                                                                  BillingPeriod period);
 
-        Task<(string, List<Agreement>)> GetTenantAgreement(int tenantId);
+        Task<IEnumerable<DataModel.Agreement>> GetAgreements(int tenantId);
     }
 }

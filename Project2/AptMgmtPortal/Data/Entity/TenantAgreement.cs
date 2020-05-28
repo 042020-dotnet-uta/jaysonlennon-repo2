@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AptMgmtPortal.Entity
 {
@@ -11,10 +9,15 @@ namespace AptMgmtPortal.Entity
 
         public int TenantId { get; set; }
 
-        public int AgrementId { get; set;  }
+        public int AgreementId { get; set;  }
 
-        public DateTimeOffset SignedDate { get; set; }
-        public DateTimeOffset StartDate { get; set; }
-        public DateTimeOffset EndDate { get; set; }
+        [Column(TypeName="NVARCHAR(48)")]
+        public DateTime SignedDate { get; set; }
+
+        [Column(TypeName="NVARCHAR(48)")]
+        public DateTime StartDate { get; set; }
+
+        [Column(TypeName="NVARCHAR(48)")]
+        public DateTime EndDate { get; set; }
     }
 }

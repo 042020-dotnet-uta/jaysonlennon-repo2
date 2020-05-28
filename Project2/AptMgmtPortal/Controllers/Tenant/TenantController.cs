@@ -40,7 +40,7 @@ namespace AptMgmtPortal.Controllers.Tenant
 
         public async Task<IActionResult> ShowTenantAgreements(int id)
         {
-            var agreement = await tenantRepository.GetTenantAgreement(id);
+            var agreement = await tenantRepository.GetAgreements(id);
             return new ObjectResult(agreement);
         }
     }

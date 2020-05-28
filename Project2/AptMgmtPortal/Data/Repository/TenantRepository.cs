@@ -372,51 +372,29 @@ namespace AptMgmtPortal.Repository
         }
 
         /// <summary>
-        /// returns both most recent text as well as list of agreement
+        /// Retrieves tenant Agreements.
         /// </summary>
-        /// <param name="agreementId"></param>
-        /// <param name="tenantId"></param>
+        /// <param name="tenantId">Tenant ID from which to get agreements.</param>
         /// <returns></returns>
-        public async Task<(string, List<Agreement>)> GetTenantAgreement(int tenantId)
+        public async Task<IEnumerable<DataModel.Agreement>> GetAgreements(int tenantId)
         {
-
-            // get recent agreementId 
-            var recentAgreementId = await _context.TenantAgreements
-                                .Where(a => a.TenantId == tenantId)
-                                .OrderByDescending(a => a.SignedDate)
-                                .Select(a => a.AgrementId)
-                                .FirstOrDefaultAsync();
-
-            // get recent agreement text
-            var agreementText = await _context.Agreements
-                                 .Where(a => a.AgreementId == recentAgreementId)
-                                 .Select(a => a.AgreementText)
-                                 .FirstOrDefaultAsync();
-
-
-            // for the list of agreements 
-
-            // get all the agreement ids related to tenent in question
-            var agreementIds = await _context.TenantAgreements
-                                .Where(a => a.TenantId == tenantId)
-                                .OrderByDescending(a => a.SignedDate)
-                                .Select(a => a.AgrementId)
-                                .ToListAsync();
-
-            // get matching agreements
-            // I am loading whole agreement object assuming there would be 
-            // small number of agreement for each tenent and angular can handle it well.
-            // we can go for loading agreement title only we this does not goes well. 
-            var agreements = new List<Agreement>();
-            foreach (var agreementId in agreementIds)
-            {
-                var agreement = await _context.Agreements
-                                     .Where(a => a.AgreementId == agreementId)
-                                     .FirstOrDefaultAsync();
-                agreements.Add(agreement);
-            }
-            return (agreementText, agreements);
+            return await _context.TenantAgreements
+                .Where(s => s.TenantId == tenantId)
+                .Join(_context.Agreements,
+                      tenantAgreements => tenantAgreements.AgreementId,
+                      agreements => agreements.AgreementId,
+                      (ta, a) => new DataModel.Agreement {
+                          AgreementId = ta.AgreementId,
+                          Title = a.Title,
+                          Text = a.Text,
+                          SignedDate = ta.SignedDate,
+                          StartDate = ta.StartDate,
+                          EndDate = ta.EndDate,
+                      })
+                .OrderByDescending(a => a.SignedDate)
+                .ToListAsync();
         }
+
         public async Task<IEnumerable<Tenant>> FindTenantWithFirstName(string firstName)
         {
             if (String.IsNullOrEmpty(firstName)) return new List<Tenant>();

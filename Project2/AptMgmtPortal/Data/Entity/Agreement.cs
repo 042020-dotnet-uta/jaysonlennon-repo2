@@ -9,10 +9,7 @@ namespace AptMgmtPortal.Entity
     public class Agreement
     {
         public int AgreementId { get; set; }
-        /// <summary>
-        /// title of the agreement ex: lease agreement, utility agreement 
-        /// </summary>
-        public string AgreementTitle { get; set; }
-        public string AgreementText { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
     }
 }
