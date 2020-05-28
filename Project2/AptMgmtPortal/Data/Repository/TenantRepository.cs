@@ -24,7 +24,7 @@ namespace AptMgmtPortal.Repository
         public async Task<Tenant> AddTenant(TenantInfo info)
         {
             if (info == null) return null;
-            
+
             var tenant = new Tenant();
             tenant.FirstName = info.FirstName;
             tenant.LastName = info.LastName;
@@ -106,7 +106,7 @@ namespace AptMgmtPortal.Repository
 
         public async Task<IEnumerable<DataModel.Bill>> GetBills(int tenantId, BillingPeriod period)
         {
-            if (period == null) return null;
+            if (period == null) return new List<DataModel.Bill>();
 
             var billingRates = await _context.ResourceUsageRates
                                         .Where(r => r.PeriodStart >= period.PeriodStart
@@ -195,7 +195,7 @@ namespace AptMgmtPortal.Repository
         public async Task<IEnumerable<MaintenanceRequest>> GetMaintenanceRequests(int userId,
                                                                                   BillingPeriod period)
         {
-            if (period == null) return null;
+            if (period == null) return new List<MaintenanceRequest>();
 
             return await _context.MaintenanceRequests
                 .Where(m => m.OpeningUserId == userId)
@@ -224,7 +224,7 @@ namespace AptMgmtPortal.Repository
                                                             ResourceType resource,
                                                             BillingPeriod period)
         {
-            if (period == null) return null;
+            if (period == null) return new List<Payment>();
 
             return await _context.Payments
                                  .Where(p => p.TenantId == tenantId)
@@ -255,7 +255,7 @@ namespace AptMgmtPortal.Repository
         public async Task<IEnumerable<DataModel.TenantResourceUsageSummary>> GetResourceUsage(int tenantId,
                                                                                               BillingPeriod period)
         {
-            if (period == null) return null;
+            if (period == null) return new List<DataModel.TenantResourceUsageSummary>();
 
             return await _context.TenantResourceUsages
                     .Where(u => u.TenantId == tenantId)
@@ -371,14 +371,13 @@ namespace AptMgmtPortal.Repository
             return await GetBills(tenantId, billingPeriod);
         }
 
-
         /// <summary>
         /// returns both most recent text as well as list of agreement
         /// </summary>
         /// <param name="agreementId"></param>
         /// <param name="tenantId"></param>
         /// <returns></returns>
-        public async Task<(string, List<Agreement>)> GetTenantAgreement(int tenantId) 
+        public async Task<(string, List<Agreement>)> GetTenantAgreement(int tenantId)
         {
 
             // get recent agreementId 
@@ -389,9 +388,9 @@ namespace AptMgmtPortal.Repository
                                 .FirstOrDefaultAsync();
 
             // get recent agreement text
-            var agreementText =  await _context.Agreements
+            var agreementText = await _context.Agreements
                                  .Where(a => a.AgreementId == recentAgreementId)
-                                 .Select(a=>a.AgreementText)
+                                 .Select(a => a.AgreementText)
                                  .FirstOrDefaultAsync();
 
 
@@ -409,7 +408,7 @@ namespace AptMgmtPortal.Repository
             // small number of agreement for each tenent and angular can handle it well.
             // we can go for loading agreement title only we this does not goes well. 
             var agreements = new List<Agreement>();
-            foreach (var agreementId in agreementIds) 
+            foreach (var agreementId in agreementIds)
             {
                 var agreement = await _context.Agreements
                                      .Where(a => a.AgreementId == agreementId)
@@ -417,6 +416,16 @@ namespace AptMgmtPortal.Repository
                 agreements.Add(agreement);
             }
             return (agreementText, agreements);
+        }
+        public async Task<IEnumerable<Tenant>> FindTenantWithFirstName(string firstName)
+        {
+            if (String.IsNullOrEmpty(firstName)) return new List<Tenant>();
+
+            firstName = firstName.ToLower();
+            return await _context.Tenants
+                        .Where(t => t.FirstName.ToLower().Contains(firstName))
+                        .Select(t => t)
+                        .ToListAsync();
         }
     }
 }
