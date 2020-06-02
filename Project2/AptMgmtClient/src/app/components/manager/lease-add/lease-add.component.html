@@ -1,45 +1,77 @@
-<form class="container" [formGroup]="myForm" (ngSubmit)="update()">
-    <h1>Add New Tenant</h1>
+<form class="container" [formGroup]="leaseForm" (ngSubmit)="update()">
+  <h1>Add New Tenant</h1>
+  <div class="form-group">
     <label for="name"><b>Tenant Name</b></label>
-    <input type="text" placeholder="Tenant Name" name="name" required
-             id="name"
-            >
-    <div [hidden]="name.valid || name.pristine"
-    class="alert alert-danger">
-    Name is required
+    <input
+      type="text"
+      placeholder="Tenant Name"
+      formControlName="name"
+      name="name"
+      required
+      id="name"
+      [ngClass]="{ 'is-invalid': submitted && f.name.errors }"
+    />
+    <div *ngIf="submitted && f.name.errors" class="alert alert-danger">
+      <span *ngIf="f.name.errors.required">Name is required</span>
     </div>
+  </div>
+
+  <div class="form-group">
     <label for="apt"><b>Apartment:</b></label>
-    <select name="apart" id="apart"
-        required
-         name="apt">
-        <option *ngFor="let apart of apt" [value]="apt">{{apt}}/option>
+    <select name="apt" id="apt" formControl="apt" name="apt">
+      <option *ngFor="let apart of apt" value="{{ apart }}">
+        {{ apart }}
+      </option>
     </select>
+  </div>
+
+  <div class="form-group">
     <label for="rent"><b>Monthly Rent</b></label>
-    <span class="currencyinput">$<input type="text" id="rent" name="rent" required
-        ></span>
-        <div [hidden]="rent.valid || rent.pristine"
-         class="alert alert-danger">
-      Rent is required
+    <span class="currencyinput">
+      $<input
+        type="text"
+        formControlName="rent"
+        id="rent"
+        name="rent"
+        required
+        [ngClass]="{ 'is-invalid': submitted && f.rent.errors }"
+      />
+    </span>
+    <div *ngIf="submitted && f.rent.errors" class="alert alert-danger">
+      <span *ngIf="f.rent.errors.required">Rent is required</span>
     </div>
-    <div class="container">
-        <div>
-            <label for="start"><b>Lease Start:</b></label>
-            <input type="date" id="start" name="start" required
-            >
-            <div [hidden]="name.valid || name.pristine"
-         class="alert alert-danger">
-      Start date is required
+  </div>
+
+  <div class="container">
+    <div class="form-group">
+      <label for="start"><b>Lease Start:</b></label>
+      <input
+        type="date"
+        id="start"
+        name="start"
+        formControlName="start"
+        required
+        [ngClass]="{ 'is-invalid': submitted && f.start.errors }"
+      />
+      <div *ngIf="submitted && f.start.errors" class="alert alert-danger">
+        <span *ngIf="f.rent.errors.required">Start date is required</span>
+      </div>
     </div>
-        </div>
-        <div>
-            <label for="end"><b>Lease End:</b></label>
-            <input type="date" id="end" name="end" required
-            >
-            <div [hidden]="name.valid || name.pristine"
-         class="alert alert-danger">
-      End date is required
+
+    <div class="form-group">
+      <label for="end"><b>Lease End:</b></label>
+      <input
+        type="date"
+        id="end"
+        name="end"
+        formControlName="end"
+        required
+        [ngClass]="{ 'is-invalid': submitted && f.start.errors }"
+      />
+      <div *ngIf="submitted && f.end.errors" class="alert alert-danger">
+        <span *ngIf="f.rent.errors.required">End date is required</span>
+      </div>
     </div>
-        </div>
-    </div>
-    <button type="submit">Add Tenant</button>
-  </form>
+  </div>
+  <button type="submit">Add Tenant</button>
+</form>
