@@ -45,12 +45,13 @@ namespace AptMgmtPortalAPI.Controllers.Tenant
         }
 
         [HttpPost]
-        [Authorize(Policy = Policies.OnlyTenants)]
+        [Authorize(Policy = Policies.AnyLoggedIn)]
         public async Task<IActionResult> UpdateTenantInfo(DTO.TenantInfoDTO info)
         {
             var userId = this.UserIdFromApiKey();
             var tenantId = await _tenantRepository.TenantIdFromUserId(userId);
-            if (tenantId == null) {
+            if (tenantId == null)
+            {
                 var err = new DTO.ErrorBuilder()
                                  .Message("Not a tenant")
                                  .Code(400)
@@ -58,12 +59,28 @@ namespace AptMgmtPortalAPI.Controllers.Tenant
                 return err;
             }
 
-            var tenant = await _tenantRepository.UpdateTenantInfo((int)tenantId, info);
-            var unitNumber = await _tenantRepository.GetUnitNumber((int)tenantId);
+            else 
+            {
+                var tenantInfo = new object();
+                if (this.UserInRole(Role.Tenant))
+                {
+                    var tenant = await _tenantRepository.UpdateTenantInfo((int)userId, info);
+                    var unitNumber = await _tenantRepository.GetUnitNumber((int)userId);
 
-            var tenantInfo = new DTO.TenantInfoDTO(tenant, unitNumber);
+                    tenantInfo = new DTO.TenantInfoDTO(tenant, unitNumber);
+                }
+                else if (this.UserInRole(Role.Manager) || this.UserInRole(Role.Admin))
+                {
 
-            return new ObjectResult(tenantInfo);
+                    var tenant = await _tenantRepository.UpdateTenantInfo(info.TenantId, info);
+                    var unitNumber = await _tenantRepository.GetUnitNumber(info.TenantId);
+
+                    tenantInfo = new DTO.TenantInfoDTO(tenant, unitNumber);
+                }
+             
+                return new ObjectResult(tenantInfo);
+            }
+
         }
     }
 }
