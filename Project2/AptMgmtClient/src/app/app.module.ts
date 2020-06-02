@@ -8,8 +8,6 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CounterComponent } from './components/counter/counter.component';
-import { FetchDataComponent } from './components/fetch-data/fetch-data.component';
 import { HomeComponent } from './components/home/home.component';
 import { MaintenanceRequestsComponent } from './components/maintenance/maintenance-requests/maintenance-requests.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
@@ -27,38 +25,25 @@ import { MaintenanceCloseReasonEnumPipe } from './helpers/maintenance-close-reas
 
 import { environment } from './../environments/environment';
 
-// Used in development builds only
-import { InMemoryDataService } from './services/in-memory-data.service';
-import { fakeAuthBackendProvider } from './helpers/fake-auth-backend.interceptor';
+//import { LeaseTenComponent } from './components/tenant/lease-ten/lease-ten.component';
+//import { MaintenanceTenComponent } from './components/tenant/maintenance-ten/maintenance-ten.component';
+import { PaymentTenComponent } from './components/tenant/payment-ten/payment-ten.component';
+//import { LeaseManComponent } from './components/manager/lease-man/lease-man.component';
+//import { MaintenanceManComponent } from './components/manager/maintenance-man/maintenance-man.component';
+import { PaymentManComponent } from './components/manager/payment-man/payment-man.component';
+
 import { ManagerComponent } from './components/manager.components/manager/manager.component';
 import { ManagerMaintenanceRequestListComponent } from './components/manager/manager-maintenance-request-list/manager-maintenance-request-list.component';
+import { LeaseViewComponent } from './components/manager/lease-view/lease-view.component';
+import { LeaseAddComponent } from './components/manager/lease-add/lease-add.component';
+import { RouterHubComponent } from './components/router-hub/router-hub.component';
 import { TenantHomeComponent } from './components/tenant/tenant-home/tenant-home.component';
-
-// Uses mock api when under development, replaced with a blank module in
-// production
-const inMemApiModule =
-  process.env.NODE_ENV === 'development' && environment.memoryApi === true
-    ? HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
-        dataEncapsulation: false,
-      })
-    : CommonModule;
-
-const providers: Provider[] = [
-    { provide: HTTP_INTERCEPTORS, useClass: ApiTokenInterceptor, multi: true },
-    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true }
-];
-
-if (process.env.NODE_ENV === 'development' && environment.memoryApi === true) {
-  providers.push(fakeAuthBackendProvider);
-}
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     TenantsComponent,
     TenantDetailsComponent,
     MaintenanceRequestsComponent,
@@ -71,15 +56,26 @@ if (process.env.NODE_ENV === 'development' && environment.memoryApi === true) {
     MaintenanceCloseReasonEnumPipe,
     ManagerMaintenanceRequestListComponent,
     TenantHomeComponent,
+    //LeaseTenComponent,
+    //MaintenanceTenComponent,
+    PaymentTenComponent,
+    //LeaseManComponent,
+    //MaintenanceManComponent,
+    PaymentManComponent,
+    LeaseViewComponent,
+    LeaseAddComponent,
+    RouterHubComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
-    inMemApiModule,
     ReactiveFormsModule,
     AppRoutingModule,
   ],
-  providers: providers,
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: ApiTokenInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
