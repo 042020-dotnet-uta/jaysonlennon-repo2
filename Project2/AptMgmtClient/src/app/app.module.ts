@@ -32,6 +32,7 @@ import { InMemoryDataService } from './services/in-memory-data.service';
 import { fakeAuthBackendProvider } from './helpers/fake-auth-backend.interceptor';
 import { ManagerComponent } from './components/manager.components/manager/manager.component';
 import { ManagerMaintenanceRequestListComponent } from './components/manager/manager-maintenance-request-list/manager-maintenance-request-list.component';
+import { TenantHomeComponent } from './components/tenant/tenant-home/tenant-home.component';
 
 // Uses mock api when under development, replaced with a blank module in
 // production
@@ -69,6 +70,7 @@ if (process.env.NODE_ENV === 'development' && environment.memoryApi === true) {
     ResourceEnumPipe,
     MaintenanceCloseReasonEnumPipe,
     ManagerMaintenanceRequestListComponent,
+    TenantHomeComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
