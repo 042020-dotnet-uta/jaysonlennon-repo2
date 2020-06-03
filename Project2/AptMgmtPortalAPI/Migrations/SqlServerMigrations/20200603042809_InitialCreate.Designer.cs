@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
 {
     [DbContext(typeof(AptMgmtDbContext))]
-    [Migration("20200603041604_InitialCreate")]
+    [Migration("20200603042809_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -75,26 +75,26 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         new
                         {
                             BillingPeriodId = 1,
-                            PeriodEnd = new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(1),
-                            PeriodStart = new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471)
+                            PeriodEnd = new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(1928),
+                            PeriodStart = new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270)
                         },
                         new
                         {
                             BillingPeriodId = 2,
-                            PeriodEnd = new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(515),
-                            PeriodStart = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471)
+                            PeriodEnd = new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2450),
+                            PeriodStart = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270)
                         },
                         new
                         {
                             BillingPeriodId = 3,
-                            PeriodEnd = new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(535),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471)
+                            PeriodEnd = new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2471),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270)
                         },
                         new
                         {
                             BillingPeriodId = 4,
-                            PeriodEnd = new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(538),
-                            PeriodStart = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471)
+                            PeriodEnd = new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2473),
+                            PeriodStart = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270)
                         });
                 });
 
@@ -149,8 +149,8 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             OpenNotes = "No water",
                             OpeningUserId = 1,
                             ResolutionNotes = "Fully restored.",
-                            TimeClosed = new DateTime(2020, 6, 2, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(7072),
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeClosed = new DateTime(2020, 6, 2, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(9119),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "101"
                         },
                         new
@@ -162,8 +162,8 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             OpenNotes = "No Interet",
                             OpeningUserId = 1,
                             ResolutionNotes = "Fixed",
-                            TimeClosed = new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeClosed = new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "101"
                         },
                         new
@@ -175,8 +175,8 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             OpenNotes = "No water",
                             OpeningUserId = 1,
                             ResolutionNotes = "Fixed",
-                            TimeClosed = new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            TimeOpened = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeClosed = new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            TimeOpened = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "101"
                         },
                         new
@@ -188,8 +188,8 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             OpenNotes = "No water",
                             OpeningUserId = 2,
                             ResolutionNotes = "Fixed",
-                            TimeClosed = new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeClosed = new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "102"
                         },
                         new
@@ -201,8 +201,8 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             OpenNotes = "No water",
                             OpeningUserId = 3,
                             ResolutionNotes = "Fixed",
-                            TimeClosed = new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeClosed = new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "103"
                         },
                         new
@@ -211,7 +211,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             InternalNotes = "Call Plumber",
                             OpenNotes = "No water",
                             OpeningUserId = 4,
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "104"
                         },
                         new
@@ -220,7 +220,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             InternalNotes = "Call Plumber",
                             OpenNotes = "No water",
                             OpeningUserId = 5,
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "105"
                         },
                         new
@@ -229,7 +229,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             InternalNotes = "Call Plumber",
                             OpenNotes = "No water",
                             OpeningUserId = 6,
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "106"
                         },
                         new
@@ -238,7 +238,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             InternalNotes = "Call Plumber",
                             OpenNotes = "No water",
                             OpeningUserId = 7,
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "107"
                         },
                         new
@@ -247,7 +247,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             InternalNotes = "Call Plumber",
                             OpenNotes = "No water",
                             OpeningUserId = 8,
-                            TimeOpened = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            TimeOpened = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             UnitNumber = "108"
                         });
                 });
@@ -285,7 +285,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 1,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(1762)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4035)
                         },
                         new
                         {
@@ -294,7 +294,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 1,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2230)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4498)
                         },
                         new
                         {
@@ -303,7 +303,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 1,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2248)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4516)
                         },
                         new
                         {
@@ -312,7 +312,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 1,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2251)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4519)
                         },
                         new
                         {
@@ -321,7 +321,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 1,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2253)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4522)
                         },
                         new
                         {
@@ -330,7 +330,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 2,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2257)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4524)
                         },
                         new
                         {
@@ -339,7 +339,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 2,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2259)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4527)
                         },
                         new
                         {
@@ -348,7 +348,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 2,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2262)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4529)
                         },
                         new
                         {
@@ -357,7 +357,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 2,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2264)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4532)
                         },
                         new
                         {
@@ -366,7 +366,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 2,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2267)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4535)
                         },
                         new
                         {
@@ -375,7 +375,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 3,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2270)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4584)
                         },
                         new
                         {
@@ -384,7 +384,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 3,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2273)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4586)
                         },
                         new
                         {
@@ -393,7 +393,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 3,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2275)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4589)
                         },
                         new
                         {
@@ -402,7 +402,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 3,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2278)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4591)
                         },
                         new
                         {
@@ -411,7 +411,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 3,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2280)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4594)
                         },
                         new
                         {
@@ -420,7 +420,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 4,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2282)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4596)
                         },
                         new
                         {
@@ -429,7 +429,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 4,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2285)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4599)
                         },
                         new
                         {
@@ -438,7 +438,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 4,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2287)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4602)
                         },
                         new
                         {
@@ -447,7 +447,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 4,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2290)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4604)
                         },
                         new
                         {
@@ -456,7 +456,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 4,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2292)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4607)
                         },
                         new
                         {
@@ -465,7 +465,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 5,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2295)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4610)
                         },
                         new
                         {
@@ -474,7 +474,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 5,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2297)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4612)
                         },
                         new
                         {
@@ -483,7 +483,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 5,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2299)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4614)
                         },
                         new
                         {
@@ -492,7 +492,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 5,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2302)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4618)
                         },
                         new
                         {
@@ -501,7 +501,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 5,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2304)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4621)
                         },
                         new
                         {
@@ -510,7 +510,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 6,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2307)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4624)
                         },
                         new
                         {
@@ -519,7 +519,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 6,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2309)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4626)
                         },
                         new
                         {
@@ -528,7 +528,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 6,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2312)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4629)
                         },
                         new
                         {
@@ -537,7 +537,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 6,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2315)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4631)
                         },
                         new
                         {
@@ -546,7 +546,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 6,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2317)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4633)
                         },
                         new
                         {
@@ -555,7 +555,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 7,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2319)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4636)
                         },
                         new
                         {
@@ -564,7 +564,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 7,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2322)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4638)
                         },
                         new
                         {
@@ -573,7 +573,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 7,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2324)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4641)
                         },
                         new
                         {
@@ -582,7 +582,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 7,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2327)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4643)
                         },
                         new
                         {
@@ -591,7 +591,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 7,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2329)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4645)
                         },
                         new
                         {
@@ -600,7 +600,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 8,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2331)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4649)
                         },
                         new
                         {
@@ -609,7 +609,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 8,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2334)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4651)
                         },
                         new
                         {
@@ -618,7 +618,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 8,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2336)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4653)
                         },
                         new
                         {
@@ -627,7 +627,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 8,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2339)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4656)
                         },
                         new
                         {
@@ -636,7 +636,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 8,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2341)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4659)
                         },
                         new
                         {
@@ -645,7 +645,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 9,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2344)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4661)
                         },
                         new
                         {
@@ -654,7 +654,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 9,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2347)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4663)
                         },
                         new
                         {
@@ -663,7 +663,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 9,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2349)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4666)
                         },
                         new
                         {
@@ -672,7 +672,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 9,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2352)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4668)
                         },
                         new
                         {
@@ -681,7 +681,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 9,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2354)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4671)
                         },
                         new
                         {
@@ -690,7 +690,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 2,
                             TenantId = 10,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2356)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4673)
                         },
                         new
                         {
@@ -699,7 +699,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 0,
                             TenantId = 10,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2359)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4675)
                         },
                         new
                         {
@@ -708,7 +708,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 4,
                             TenantId = 10,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2361)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4678)
                         },
                         new
                         {
@@ -717,7 +717,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 3,
                             TenantId = 10,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2363)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4680)
                         },
                         new
                         {
@@ -726,7 +726,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                             BillingPeriodId = 1,
                             ResourceType = 1,
                             TenantId = 10,
-                            TimePaid = new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2366)
+                            TimePaid = new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4683)
                         });
                 });
 
@@ -756,40 +756,40 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         new
                         {
                             ResourceUsageRateId = 1,
-                            PeriodEnd = new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8071),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            PeriodEnd = new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(263),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             Rate = 40.450000000000003,
                             ResourceType = 2
                         },
                         new
                         {
                             ResourceUsageRateId = 2,
-                            PeriodEnd = new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8900),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            PeriodEnd = new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1075),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             Rate = 3.4500000000000002,
                             ResourceType = 0
                         },
                         new
                         {
                             ResourceUsageRateId = 3,
-                            PeriodEnd = new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8924),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            PeriodEnd = new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1100),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             Rate = 1100.0,
                             ResourceType = 4
                         },
                         new
                         {
                             ResourceUsageRateId = 4,
-                            PeriodEnd = new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8927),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            PeriodEnd = new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1103),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             Rate = 20.550000000000001,
                             ResourceType = 3
                         },
                         new
                         {
                             ResourceUsageRateId = 5,
-                            PeriodEnd = new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8929),
-                            PeriodStart = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            PeriodEnd = new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1106),
+                            PeriodStart = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             Rate = 1.75,
                             ResourceType = 1
                         });
@@ -825,90 +825,90 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             SignedAgreementId = 1,
                             AgreementId = 1,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(4941),
-                            SignedDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7094),
+                            SignedDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 1
                         },
                         new
                         {
                             SignedAgreementId = 2,
                             AgreementId = 2,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5753),
-                            SignedDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7898),
+                            SignedDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 2
                         },
                         new
                         {
                             SignedAgreementId = 3,
                             AgreementId = 3,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5779),
-                            SignedDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7924),
+                            SignedDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 3
                         },
                         new
                         {
                             SignedAgreementId = 4,
                             AgreementId = 1,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5782),
-                            SignedDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7926),
+                            SignedDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 4
                         },
                         new
                         {
                             SignedAgreementId = 5,
                             AgreementId = 2,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5784),
-                            SignedDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7929),
+                            SignedDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 5
                         },
                         new
                         {
                             SignedAgreementId = 6,
                             AgreementId = 3,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5787),
-                            SignedDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7932),
+                            SignedDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 6
                         },
                         new
                         {
                             SignedAgreementId = 7,
                             AgreementId = 1,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5789),
-                            SignedDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7934),
+                            SignedDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 7
                         },
                         new
                         {
                             SignedAgreementId = 8,
                             AgreementId = 2,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5791),
-                            SignedDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7937),
+                            SignedDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 8
                         },
                         new
                         {
                             SignedAgreementId = 9,
                             AgreementId = 3,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5794),
-                            SignedDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7940),
+                            SignedDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 9
                         },
                         new
                         {
                             SignedAgreementId = 10,
                             AgreementId = 1,
-                            EndDate = new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5797),
-                            SignedDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
-                            StartDate = new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471),
+                            EndDate = new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7942),
+                            SignedDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
+                            StartDate = new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270),
                             TenantId = 10
                         });
                 });
@@ -1058,7 +1058,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 1,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1426),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(3620),
                             TenantId = 1,
                             UsageAmount = 1.0
                         },
@@ -1066,7 +1066,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 2,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1939),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4163),
                             TenantId = 1,
                             UsageAmount = 50.549999999999997
                         },
@@ -1074,7 +1074,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 3,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1957),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4183),
                             TenantId = 1,
                             UsageAmount = 1.0
                         },
@@ -1082,7 +1082,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 4,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1960),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4186),
                             TenantId = 1,
                             UsageAmount = 1.0
                         },
@@ -1090,7 +1090,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 5,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1963),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4189),
                             TenantId = 1,
                             UsageAmount = 40.399999999999999
                         },
@@ -1098,7 +1098,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 6,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1966),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4192),
                             TenantId = 2,
                             UsageAmount = 1.0
                         },
@@ -1106,7 +1106,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 7,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1968),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4194),
                             TenantId = 2,
                             UsageAmount = 50.549999999999997
                         },
@@ -1114,7 +1114,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 8,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1971),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4197),
                             TenantId = 2,
                             UsageAmount = 1.0
                         },
@@ -1122,7 +1122,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 9,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1973),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4199),
                             TenantId = 2,
                             UsageAmount = 1.0
                         },
@@ -1130,7 +1130,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 10,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1976),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4202),
                             TenantId = 2,
                             UsageAmount = 30.329999999999998
                         },
@@ -1138,7 +1138,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 11,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1978),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4205),
                             TenantId = 3,
                             UsageAmount = 1.0
                         },
@@ -1146,7 +1146,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 12,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1980),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4208),
                             TenantId = 3,
                             UsageAmount = 50.549999999999997
                         },
@@ -1154,7 +1154,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 13,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1983),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4210),
                             TenantId = 3,
                             UsageAmount = 1.0
                         },
@@ -1162,7 +1162,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 14,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1985),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4213),
                             TenantId = 3,
                             UsageAmount = 1.0
                         },
@@ -1170,7 +1170,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 15,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1988),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4215),
                             TenantId = 3,
                             UsageAmount = 30.329999999999998
                         },
@@ -1178,7 +1178,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 16,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1991),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4218),
                             TenantId = 4,
                             UsageAmount = 1.0
                         },
@@ -1186,7 +1186,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 17,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1994),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4220),
                             TenantId = 4,
                             UsageAmount = 50.549999999999997
                         },
@@ -1194,7 +1194,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 18,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1996),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4223),
                             TenantId = 4,
                             UsageAmount = 1.0
                         },
@@ -1202,7 +1202,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 19,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1998),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4225),
                             TenantId = 4,
                             UsageAmount = 1.0
                         },
@@ -1210,7 +1210,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 20,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2000),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4227),
                             TenantId = 4,
                             UsageAmount = 30.329999999999998
                         },
@@ -1218,7 +1218,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 21,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2003),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4230),
                             TenantId = 5,
                             UsageAmount = 1.0
                         },
@@ -1226,7 +1226,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 22,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2005),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4232),
                             TenantId = 5,
                             UsageAmount = 60.549999999999997
                         },
@@ -1234,7 +1234,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 23,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2008),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4235),
                             TenantId = 5,
                             UsageAmount = 1.0
                         },
@@ -1242,7 +1242,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 24,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2010),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4237),
                             TenantId = 5,
                             UsageAmount = 1.0
                         },
@@ -1250,7 +1250,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 25,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2012),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4239),
                             TenantId = 5,
                             UsageAmount = 40.329999999999998
                         },
@@ -1258,7 +1258,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 26,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2015),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4241),
                             TenantId = 6,
                             UsageAmount = 1.0
                         },
@@ -1266,7 +1266,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 27,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2017),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4244),
                             TenantId = 6,
                             UsageAmount = 60.549999999999997
                         },
@@ -1274,7 +1274,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 28,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2019),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4246),
                             TenantId = 6,
                             UsageAmount = 1.0
                         },
@@ -1282,7 +1282,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 29,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2022),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4249),
                             TenantId = 6,
                             UsageAmount = 1.0
                         },
@@ -1290,7 +1290,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 30,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2024),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4251),
                             TenantId = 6,
                             UsageAmount = 31.329999999999998
                         },
@@ -1298,7 +1298,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 31,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2026),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4254),
                             TenantId = 7,
                             UsageAmount = 1.0
                         },
@@ -1306,7 +1306,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 32,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2028),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4256),
                             TenantId = 7,
                             UsageAmount = 50.549999999999997
                         },
@@ -1314,7 +1314,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 33,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2031),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4258),
                             TenantId = 7,
                             UsageAmount = 1.0
                         },
@@ -1322,7 +1322,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 34,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2033),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4261),
                             TenantId = 7,
                             UsageAmount = 1.0
                         },
@@ -1330,7 +1330,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 35,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2035),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4263),
                             TenantId = 7,
                             UsageAmount = 30.329999999999998
                         },
@@ -1338,7 +1338,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 36,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2039),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4266),
                             TenantId = 8,
                             UsageAmount = 1.0
                         },
@@ -1346,7 +1346,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 37,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2041),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4268),
                             TenantId = 8,
                             UsageAmount = 50.549999999999997
                         },
@@ -1354,7 +1354,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 38,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2043),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4270),
                             TenantId = 8,
                             UsageAmount = 1.0
                         },
@@ -1362,7 +1362,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 39,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2046),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4272),
                             TenantId = 8,
                             UsageAmount = 1.0
                         },
@@ -1370,7 +1370,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 40,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2048),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4274),
                             TenantId = 8,
                             UsageAmount = 30.329999999999998
                         },
@@ -1378,7 +1378,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 41,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2050),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4277),
                             TenantId = 9,
                             UsageAmount = 1.0
                         },
@@ -1386,7 +1386,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 42,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2053),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4279),
                             TenantId = 9,
                             UsageAmount = 50.549999999999997
                         },
@@ -1394,7 +1394,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 43,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2055),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4281),
                             TenantId = 9,
                             UsageAmount = 1.0
                         },
@@ -1402,7 +1402,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 44,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2058),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4284),
                             TenantId = 9,
                             UsageAmount = 1.0
                         },
@@ -1410,7 +1410,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 45,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2060),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4286),
                             TenantId = 9,
                             UsageAmount = 30.329999999999998
                         },
@@ -1418,7 +1418,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 46,
                             ResourceType = 2,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2062),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4288),
                             TenantId = 10,
                             UsageAmount = 1.0
                         },
@@ -1426,7 +1426,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 47,
                             ResourceType = 0,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2065),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4290),
                             TenantId = 10,
                             UsageAmount = 50.549999999999997
                         },
@@ -1434,7 +1434,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 48,
                             ResourceType = 4,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2067),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4293),
                             TenantId = 10,
                             UsageAmount = 1.0
                         },
@@ -1442,7 +1442,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 49,
                             ResourceType = 3,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2069),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4296),
                             TenantId = 10,
                             UsageAmount = 1.0
                         },
@@ -1450,7 +1450,7 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
                         {
                             TenantResourceUsageId = 50,
                             ResourceType = 1,
-                            SampleTime = new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2072),
+                            SampleTime = new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4299),
                             TenantId = 10,
                             UsageAmount = 30.329999999999998
                         });

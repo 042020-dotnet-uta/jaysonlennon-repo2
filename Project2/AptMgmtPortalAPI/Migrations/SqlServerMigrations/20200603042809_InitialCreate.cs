@@ -190,647 +190,647 @@ namespace AptMgmtPortalAPI.Migrations.SqlServerMigrations
             migrationBuilder.InsertData(
                 table: "BillingPeriods",
                 columns: new[] { "BillingPeriodId", "PeriodEnd", "PeriodStart" },
-                values: new object[] { 1, new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(1), new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471) });
+                values: new object[] { 1, new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(1928), new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270) });
 
             migrationBuilder.InsertData(
                 table: "BillingPeriods",
                 columns: new[] { "BillingPeriodId", "PeriodEnd", "PeriodStart" },
-                values: new object[] { 2, new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(515), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471) });
+                values: new object[] { 2, new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2450), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270) });
 
             migrationBuilder.InsertData(
                 table: "BillingPeriods",
                 columns: new[] { "BillingPeriodId", "PeriodEnd", "PeriodStart" },
-                values: new object[] { 3, new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(535), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471) });
+                values: new object[] { 3, new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2471), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270) });
 
             migrationBuilder.InsertData(
                 table: "BillingPeriods",
                 columns: new[] { "BillingPeriodId", "PeriodEnd", "PeriodStart" },
-                values: new object[] { 4, new DateTime(2020, 6, 3, 21, 16, 4, 562, DateTimeKind.Local).AddTicks(538), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471) });
+                values: new object[] { 4, new DateTime(2020, 6, 3, 21, 28, 9, 179, DateTimeKind.Local).AddTicks(2473), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270) });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 10, null, null, "Call Plumber", null, "No water", 8, null, null, new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "108" });
+                values: new object[] { 10, null, null, "Call Plumber", null, "No water", 8, null, null, new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "108" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 9, null, null, "Call Plumber", null, "No water", 7, null, null, new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "107" });
+                values: new object[] { 9, null, null, "Call Plumber", null, "No water", 7, null, null, new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "107" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 8, null, null, "Call Plumber", null, "No water", 6, null, null, new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "106" });
+                values: new object[] { 8, null, null, "Call Plumber", null, "No water", 6, null, null, new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "106" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 6, null, null, "Call Plumber", null, "No water", 4, null, null, new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "104" });
+                values: new object[] { 6, null, null, "Call Plumber", null, "No water", 4, null, null, new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "104" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 7, null, null, "Call Plumber", null, "No water", 5, null, null, new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "105" });
+                values: new object[] { 7, null, null, "Call Plumber", null, "No water", 5, null, null, new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "105" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 4, "CanceledByTenant", 1, "Call Plumber", null, "No water", 2, "Fixed", new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "102" });
+                values: new object[] { 4, "CanceledByTenant", 1, "Call Plumber", null, "No water", 2, "Fixed", new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "102" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 3, "CanceledByManagement", 1, "Call Plumber", null, "No water", 1, "Fixed", new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "101" });
+                values: new object[] { 3, "CanceledByManagement", 1, "Call Plumber", null, "No water", 1, "Fixed", new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "101" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 2, "Completed", 1, "Call Comcast", null, "No Interet", 1, "Fixed", new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "101" });
+                values: new object[] { 2, "Completed", 1, "Call Comcast", null, "No Interet", 1, "Fixed", new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "101" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 1, "Completed", 1, "Call Plumber", "Plumbing", "No water", 1, "Fully restored.", new DateTime(2020, 6, 2, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(7072), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "101" });
+                values: new object[] { 1, "Completed", 1, "Call Plumber", "Plumbing", "No water", 1, "Fully restored.", new DateTime(2020, 6, 2, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(9119), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "101" });
 
             migrationBuilder.InsertData(
                 table: "MaintenanceRequests",
                 columns: new[] { "MaintenanceRequestId", "CloseReason", "ClosingUserId", "InternalNotes", "MaintenanceRequestType", "OpenNotes", "OpeningUserId", "ResolutionNotes", "TimeClosed", "TimeOpened", "UnitNumber" },
-                values: new object[] { 5, "CanceledByManagement", 2, "Call Plumber", null, "No water", 3, "Fixed", new DateTime(2020, 5, 3, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), "103" });
+                values: new object[] { 5, "CanceledByManagement", 2, "Call Plumber", null, "No water", 3, "Fixed", new DateTime(2020, 5, 3, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), "103" });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 37, 100.11, 1, 0, 8, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2334) });
+                values: new object[] { 37, 100.11, 1, 0, 8, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4651) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 28, 100.11, 1, 4, 6, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2312) });
+                values: new object[] { 28, 100.11, 1, 4, 6, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4629) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 29, 100.11, 1, 3, 6, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2315) });
+                values: new object[] { 29, 100.11, 1, 3, 6, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4631) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 30, 100.11, 1, 1, 6, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2317) });
+                values: new object[] { 30, 100.11, 1, 1, 6, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4633) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 31, 100.11, 1, 2, 7, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2319) });
+                values: new object[] { 31, 100.11, 1, 2, 7, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4636) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 32, 100.11, 1, 0, 7, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2322) });
+                values: new object[] { 32, 100.11, 1, 0, 7, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4638) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 33, 100.11, 1, 4, 7, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2324) });
+                values: new object[] { 33, 100.11, 1, 4, 7, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4641) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 34, 100.11, 1, 3, 7, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2327) });
+                values: new object[] { 34, 100.11, 1, 3, 7, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4643) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 35, 100.11, 1, 1, 7, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2329) });
+                values: new object[] { 35, 100.11, 1, 1, 7, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4645) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 36, 100.11, 1, 2, 8, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2331) });
+                values: new object[] { 36, 100.11, 1, 2, 8, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4649) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 38, 100.11, 1, 4, 8, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2336) });
+                values: new object[] { 38, 100.11, 1, 4, 8, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4653) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 46, 100.11, 1, 2, 10, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2356) });
+                values: new object[] { 46, 100.11, 1, 2, 10, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4673) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 40, 100.11, 1, 1, 8, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2341) });
+                values: new object[] { 40, 100.11, 1, 1, 8, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4659) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 41, 100.11, 1, 2, 9, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2344) });
+                values: new object[] { 41, 100.11, 1, 2, 9, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4661) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 42, 100.11, 1, 0, 9, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2347) });
+                values: new object[] { 42, 100.11, 1, 0, 9, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4663) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 43, 100.11, 1, 4, 9, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2349) });
+                values: new object[] { 43, 100.11, 1, 4, 9, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4666) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 44, 100.11, 1, 3, 9, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2352) });
+                values: new object[] { 44, 100.11, 1, 3, 9, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4668) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 45, 100.11, 1, 1, 9, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2354) });
+                values: new object[] { 45, 100.11, 1, 1, 9, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4671) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 27, 100.11, 1, 0, 6, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2309) });
+                values: new object[] { 27, 100.11, 1, 0, 6, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4626) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 47, 100.11, 1, 0, 10, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2359) });
+                values: new object[] { 47, 100.11, 1, 0, 10, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4675) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 48, 100.11, 1, 4, 10, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2361) });
+                values: new object[] { 48, 100.11, 1, 4, 10, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4678) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 50, 100.11, 1, 1, 10, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2366) });
+                values: new object[] { 50, 100.11, 1, 1, 10, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4683) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 39, 100.11, 1, 3, 8, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2339) });
+                values: new object[] { 39, 100.11, 1, 3, 8, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4656) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 26, 100.11, 1, 2, 6, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2307) });
+                values: new object[] { 26, 100.11, 1, 2, 6, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4624) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 49, 100.11, 1, 3, 10, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2363) });
+                values: new object[] { 49, 100.11, 1, 3, 10, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4680) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 24, 100.11, 1, 3, 5, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2302) });
+                values: new object[] { 24, 100.11, 1, 3, 5, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4618) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 1, 100.11, 1, 2, 1, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(1762) });
+                values: new object[] { 1, 100.11, 1, 2, 1, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4035) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 25, 100.11, 1, 1, 5, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2304) });
+                values: new object[] { 25, 100.11, 1, 1, 5, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4621) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 2, 100.11, 1, 0, 1, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2230) });
+                values: new object[] { 2, 100.11, 1, 0, 1, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4498) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 3, 100.11, 1, 4, 1, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2248) });
+                values: new object[] { 3, 100.11, 1, 4, 1, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4516) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 4, 100.11, 1, 3, 1, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2251) });
+                values: new object[] { 4, 100.11, 1, 3, 1, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4519) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 5, 100.11, 1, 1, 1, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2253) });
+                values: new object[] { 5, 100.11, 1, 1, 1, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4522) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 6, 100.11, 1, 2, 2, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2257) });
+                values: new object[] { 6, 100.11, 1, 2, 2, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4524) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 8, 100.11, 1, 4, 2, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2262) });
+                values: new object[] { 8, 100.11, 1, 4, 2, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4529) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 9, 100.11, 1, 3, 2, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2264) });
+                values: new object[] { 9, 100.11, 1, 3, 2, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4532) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 10, 100.11, 1, 1, 2, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2267) });
+                values: new object[] { 10, 100.11, 1, 1, 2, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4535) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 11, 100.11, 1, 2, 3, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2270) });
+                values: new object[] { 11, 100.11, 1, 2, 3, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4584) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 7, 100.11, 1, 0, 2, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2259) });
+                values: new object[] { 7, 100.11, 1, 0, 2, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4527) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 13, 100.11, 1, 4, 3, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2275) });
+                values: new object[] { 13, 100.11, 1, 4, 3, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4589) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 23, 100.11, 1, 4, 5, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2299) });
+                values: new object[] { 23, 100.11, 1, 4, 5, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4614) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 12, 100.11, 1, 0, 3, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2273) });
+                values: new object[] { 12, 100.11, 1, 0, 3, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4586) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 21, 100.11, 1, 2, 5, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2295) });
+                values: new object[] { 21, 100.11, 1, 2, 5, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4610) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 20, 100.11, 1, 1, 4, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2292) });
+                values: new object[] { 20, 100.11, 1, 1, 4, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4607) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 19, 100.11, 1, 3, 4, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2290) });
+                values: new object[] { 19, 100.11, 1, 3, 4, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4604) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 22, 100.11, 1, 0, 5, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2297) });
+                values: new object[] { 22, 100.11, 1, 0, 5, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4612) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 17, 100.11, 1, 0, 4, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2285) });
+                values: new object[] { 17, 100.11, 1, 0, 4, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4599) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 16, 100.11, 1, 2, 4, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2282) });
+                values: new object[] { 16, 100.11, 1, 2, 4, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4596) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 15, 100.11, 1, 1, 3, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2280) });
+                values: new object[] { 15, 100.11, 1, 1, 3, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4594) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 14, 100.11, 1, 3, 3, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2278) });
+                values: new object[] { 14, 100.11, 1, 3, 3, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4591) });
 
             migrationBuilder.InsertData(
                 table: "Payments",
                 columns: new[] { "PaymentId", "Amount", "BillingPeriodId", "ResourceType", "TenantId", "TimePaid" },
-                values: new object[] { 18, 100.11, 1, 4, 4, new DateTime(2020, 6, 1, 21, 16, 4, 561, DateTimeKind.Local).AddTicks(2287) });
+                values: new object[] { 18, 100.11, 1, 4, 4, new DateTime(2020, 6, 1, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(4602) });
 
             migrationBuilder.InsertData(
                 table: "ResourceUsageRates",
                 columns: new[] { "ResourceUsageRateId", "PeriodEnd", "PeriodStart", "Rate", "ResourceType" },
-                values: new object[] { 1, new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8071), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 40.450000000000003, 2 });
+                values: new object[] { 1, new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(263), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 40.450000000000003, 2 });
 
             migrationBuilder.InsertData(
                 table: "ResourceUsageRates",
                 columns: new[] { "ResourceUsageRateId", "PeriodEnd", "PeriodStart", "Rate", "ResourceType" },
-                values: new object[] { 2, new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8900), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 3.4500000000000002, 0 });
+                values: new object[] { 2, new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1075), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 3.4500000000000002, 0 });
 
             migrationBuilder.InsertData(
                 table: "ResourceUsageRates",
                 columns: new[] { "ResourceUsageRateId", "PeriodEnd", "PeriodStart", "Rate", "ResourceType" },
-                values: new object[] { 3, new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8924), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 1100.0, 4 });
+                values: new object[] { 3, new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1100), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 1100.0, 4 });
 
             migrationBuilder.InsertData(
                 table: "ResourceUsageRates",
                 columns: new[] { "ResourceUsageRateId", "PeriodEnd", "PeriodStart", "Rate", "ResourceType" },
-                values: new object[] { 4, new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8927), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 20.550000000000001, 3 });
+                values: new object[] { 4, new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1103), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 20.550000000000001, 3 });
 
             migrationBuilder.InsertData(
                 table: "ResourceUsageRates",
                 columns: new[] { "ResourceUsageRateId", "PeriodEnd", "PeriodStart", "Rate", "ResourceType" },
-                values: new object[] { 5, new DateTime(2020, 11, 29, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(8929), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 1.75, 1 });
+                values: new object[] { 5, new DateTime(2020, 11, 29, 21, 28, 9, 178, DateTimeKind.Local).AddTicks(1106), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 1.75, 1 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 7, 1, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5789), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 7 });
+                values: new object[] { 7, 1, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7934), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 7 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 10, 1, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5797), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 10 });
+                values: new object[] { 10, 1, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7942), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 10 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 9, 3, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5794), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 9 });
+                values: new object[] { 9, 3, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7940), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 9 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 8, 2, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5791), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 8 });
+                values: new object[] { 8, 2, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7937), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 8 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 6, 3, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5787), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 6 });
+                values: new object[] { 6, 3, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7932), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 6 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 2, 2, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5753), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 2 });
+                values: new object[] { 2, 2, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7898), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 2 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 4, 1, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5782), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 4 });
+                values: new object[] { 4, 1, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7926), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 4 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 3, 3, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5779), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 6, 8, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 3 });
+                values: new object[] { 3, 3, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7924), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 6, 8, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 3 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 1, 1, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(4941), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2020, 3, 4, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 1 });
+                values: new object[] { 1, 1, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7094), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2020, 3, 4, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 1 });
 
             migrationBuilder.InsertData(
                 table: "SignedAgreements",
                 columns: new[] { "SignedAgreementId", "AgreementId", "EndDate", "SignedDate", "StartDate", "TenantId" },
-                values: new object[] { 5, 2, new DateTime(2020, 6, 2, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(5784), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), new DateTime(2019, 12, 5, 21, 16, 4, 549, DateTimeKind.Local).AddTicks(8471), 5 });
+                values: new object[] { 5, 2, new DateTime(2020, 6, 2, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(7929), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), new DateTime(2019, 12, 5, 21, 28, 9, 166, DateTimeKind.Local).AddTicks(6270), 5 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 17, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1994), 4, 50.549999999999997 });
+                values: new object[] { 17, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4220), 4, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 18, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1996), 4, 1.0 });
+                values: new object[] { 18, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4223), 4, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 19, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1998), 4, 1.0 });
+                values: new object[] { 19, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4225), 4, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 20, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2000), 4, 30.329999999999998 });
+                values: new object[] { 20, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4227), 4, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 21, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2003), 5, 1.0 });
+                values: new object[] { 21, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4230), 5, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 22, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2005), 5, 60.549999999999997 });
+                values: new object[] { 22, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4232), 5, 60.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 23, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2008), 5, 1.0 });
+                values: new object[] { 23, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4235), 5, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 24, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2010), 5, 1.0 });
+                values: new object[] { 24, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4237), 5, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 25, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2012), 5, 40.329999999999998 });
+                values: new object[] { 25, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4239), 5, 40.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 26, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2015), 6, 1.0 });
+                values: new object[] { 26, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4241), 6, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 27, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2017), 6, 60.549999999999997 });
+                values: new object[] { 27, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4244), 6, 60.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 29, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2022), 6, 1.0 });
+                values: new object[] { 29, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4249), 6, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 30, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2024), 6, 31.329999999999998 });
+                values: new object[] { 30, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4251), 6, 31.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 31, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2026), 7, 1.0 });
+                values: new object[] { 31, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4254), 7, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 32, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2028), 7, 50.549999999999997 });
+                values: new object[] { 32, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4256), 7, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 33, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2031), 7, 1.0 });
+                values: new object[] { 33, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4258), 7, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 38, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2043), 8, 1.0 });
+                values: new object[] { 38, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4270), 8, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 34, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2033), 7, 1.0 });
+                values: new object[] { 34, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4261), 7, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 35, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2035), 7, 30.329999999999998 });
+                values: new object[] { 35, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4263), 7, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 36, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2039), 8, 1.0 });
+                values: new object[] { 36, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4266), 8, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 37, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2041), 8, 50.549999999999997 });
+                values: new object[] { 37, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4268), 8, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 16, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1991), 4, 1.0 });
+                values: new object[] { 16, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4218), 4, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 28, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2019), 6, 1.0 });
+                values: new object[] { 28, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4246), 6, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 15, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1988), 3, 30.329999999999998 });
+                values: new object[] { 15, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4215), 3, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 46, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2062), 10, 1.0 });
+                values: new object[] { 46, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4288), 10, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 13, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1983), 3, 1.0 });
+                values: new object[] { 13, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4210), 3, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 39, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2046), 8, 1.0 });
+                values: new object[] { 39, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4272), 8, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 50, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2072), 10, 30.329999999999998 });
+                values: new object[] { 50, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4299), 10, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 49, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2069), 10, 1.0 });
+                values: new object[] { 49, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4296), 10, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 48, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2067), 10, 1.0 });
+                values: new object[] { 48, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4293), 10, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 47, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2065), 10, 50.549999999999997 });
+                values: new object[] { 47, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4290), 10, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 45, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2060), 9, 30.329999999999998 });
+                values: new object[] { 45, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4286), 9, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 44, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2058), 9, 1.0 });
+                values: new object[] { 44, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4284), 9, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 43, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2055), 9, 1.0 });
+                values: new object[] { 43, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4281), 9, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 42, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2053), 9, 50.549999999999997 });
+                values: new object[] { 42, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4279), 9, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 41, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2050), 9, 1.0 });
+                values: new object[] { 41, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4277), 9, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 14, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1985), 3, 1.0 });
+                values: new object[] { 14, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4213), 3, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 1, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1426), 1, 1.0 });
+                values: new object[] { 1, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(3620), 1, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 3, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1957), 1, 1.0 });
+                values: new object[] { 3, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4183), 1, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 4, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1960), 1, 1.0 });
+                values: new object[] { 4, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4186), 1, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 5, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1963), 1, 40.399999999999999 });
+                values: new object[] { 5, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4189), 1, 40.399999999999999 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 6, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1966), 2, 1.0 });
+                values: new object[] { 6, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4192), 2, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 7, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1968), 2, 50.549999999999997 });
+                values: new object[] { 7, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4194), 2, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 8, 4, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1971), 2, 1.0 });
+                values: new object[] { 8, 4, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4197), 2, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 9, 3, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1973), 2, 1.0 });
+                values: new object[] { 9, 3, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4199), 2, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 10, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1976), 2, 30.329999999999998 });
+                values: new object[] { 10, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4202), 2, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 11, 2, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1978), 3, 1.0 });
+                values: new object[] { 11, 2, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4205), 3, 1.0 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 12, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1980), 3, 50.549999999999997 });
+                values: new object[] { 12, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4208), 3, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 2, 0, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(1939), 1, 50.549999999999997 });
+                values: new object[] { 2, 0, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4163), 1, 50.549999999999997 });
 
             migrationBuilder.InsertData(
                 table: "TenantResourceUsages",
                 columns: new[] { "TenantResourceUsageId", "ResourceType", "SampleTime", "TenantId", "UsageAmount" },
-                values: new object[] { 40, 1, new DateTime(2020, 6, 1, 21, 16, 4, 560, DateTimeKind.Local).AddTicks(2048), 8, 30.329999999999998 });
+                values: new object[] { 40, 1, new DateTime(2020, 6, 1, 21, 28, 9, 177, DateTimeKind.Local).AddTicks(4274), 8, 30.329999999999998 });
 
             migrationBuilder.InsertData(
                 table: "Tenants",
