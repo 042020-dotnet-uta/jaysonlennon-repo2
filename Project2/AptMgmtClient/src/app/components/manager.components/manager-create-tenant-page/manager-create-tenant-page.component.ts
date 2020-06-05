@@ -38,7 +38,7 @@ export class ManagerCreateTenantPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.tenantCreationForm = this.formBuilder.group({
-      tenantEmail: ['', Validators.email],
+      tenantEmail: ['', [Validators.email, Validators.required]],
       unitNumber: ['', Validators.required],
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
