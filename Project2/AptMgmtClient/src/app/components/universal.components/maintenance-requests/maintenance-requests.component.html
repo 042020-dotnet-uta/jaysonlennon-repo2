@@ -20,6 +20,7 @@
         <th scope="col">Time Created</th>
         <th scope="col">Status</th>
         <th scope="col">Notes</th>
+        <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
@@ -39,7 +40,7 @@
         <td>{{ request.openNotes }}</td>
         <td>
           <span *ngIf="!request.closedBy">
-            <button class="btn btn-primary" (click)="completeRequest(request)">
+            <button *ngIf="isManager" class="btn btn-primary" (click)="completeRequest(request)">
               Complete
             </button>
             <button class="btn btn-danger" (click)="cancelRequest(request)">
