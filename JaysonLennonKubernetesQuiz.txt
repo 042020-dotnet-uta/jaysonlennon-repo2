@@ -1,0 +1,48 @@
+(PDF)
+1. What is the Control Plane's main job?
+* (CORRECT)Make global decisions about the cluster
+* Control network and firewall settings
+* Spawn new pods
+* Reboot and provision nodes
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/
+2. What type of machines can a Kubernetes cluster be deployed on?
+* Imaginary
+* Simulated
+* (CORRECT)Physical
+* Lightweight
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive/
+3. What commmand is used to list all the nodes in a cluster?
+* (CORRECT)kubectl get nodes
+* kubectl list nodes
+* kubectl nodes list
+* kubectl all nodes
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+4. What is contained directly within a node?
+* Volume
+* Containerized app
+* (CORRECT)Pod
+* Node
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+5. What is a valid Service that may be used as a ServiceSpec?
+* NodeName
+* HealthCheck
+* ExternalRouting
+* (CORRECT)NodePort
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/
+6. How is scaling accomplished in a Kubernetes Cluster?
+* Increasing the number of nodes
+* (CORRECT)Changing the number of replicas
+* Reconfiguring the Control Plane
+* Adding more machines
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
+7. What happens when a rolling update is scheduled on a public Deployment?
+* The Deployment is temporarily suspended during the update
+* The update will be postponed until there are enough Pods
+* (CORRECT)The Service will load-balance only to available Pods
+* The Deployment is made private during the update
